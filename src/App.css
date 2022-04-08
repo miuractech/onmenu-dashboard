@@ -1,0 +1,23 @@
+.app {
+  background-color: #fbfbff;
+  display: flex;
+  overflow: hidden;
+}
+/* .app__left {
+} */
+.app__right {
+  flex: 1;
+  background-color: #fbfbff;
+  padding: 0 3rem;
+  overflow-y: scroll;
+}
+ul
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+  
+.padding1{
+  padding:8px;
+}

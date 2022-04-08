@@ -1,0 +1,19 @@
+.input-container {
+  width: 290px;
+  height: 43px;
+  background: #ffffff;
+  border: 1px solid rgba(56, 66, 97, 0.18);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+  -webkit-transition: border 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out;
+}
+
+.input-container:focus {
+  outline: none !important;
+  border: 1px solid #5ac8faff;
+}
+/*# sourceMappingURL=auth.module.css.map */

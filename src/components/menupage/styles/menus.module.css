@@ -1,0 +1,33 @@
+.menu-page-container-list {
+  background-color: #ffff;
+  padding: 1rem 0.75rem 0.75rem 0.75rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 5px 10px 0px #e5e5e580;
+          box-shadow: 0px 5px 10px 0px #e5e5e580;
+  min-width: 306px;
+  min-height: 306px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-page-container-list--heading {
+  min-width: 20rem;
+  width: 100%;
+}
+
+.menu-page-container-list--items {
+  margin-top: 3rem;
+}
+
+.menu-page-container-list--items > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=menus.module.css.map */

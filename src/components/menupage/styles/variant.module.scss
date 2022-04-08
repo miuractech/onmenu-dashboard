@@ -1,0 +1,73 @@
+.variant {
+  padding-left: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  &__label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  &__container {
+    width: 100%;
+    margin-top: 1rem;
+    &--detailed {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      label {
+        font-size: 1.5rem;
+      }
+      input {
+        outline: none;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+      }
+    }
+    &--price {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+      label {
+        font-size: 1.5rem;
+      }
+      input {
+        outline: none;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+      }
+    }
+  }
+  &__options {
+    &--label {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    &-container {
+      margin-top: 1rem;
+      & > *:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+      &--item {
+        input {
+          outline: none;
+          border: 1px solid #e5e5e5;
+          border-radius: 5px;
+          padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+        }
+      }
+    }
+    &-button {
+      margin-top: 1rem;
+      & > *:first-child {
+        margin-right: 1rem;
+      }
+      button {
+        cursor: pointer;
+        outline: none;
+        border: 1px solid #e5e5e5;
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.topbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fbfbff;
+  z-index: 1500;
+}
+
+.container .item-container {
+  padding: 10px 0 0 10px;
+}
+
+.container .item-container .item {
+  font-family: 'Poppins';
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+.item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=topbar.module.css.map */

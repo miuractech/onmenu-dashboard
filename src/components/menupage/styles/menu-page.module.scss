@@ -1,0 +1,14 @@
+.menu-page {
+  margin-top: 3rem;
+  & > * {
+    margin-right: 3rem;
+  }
+  &-container {
+    display: flex;
+    min-width: 900px;
+    margin-top: 20px;
+    & > *:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+}

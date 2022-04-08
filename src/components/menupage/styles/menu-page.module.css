@@ -1,0 +1,20 @@
+.menu-page {
+  margin-top: 3rem;
+}
+
+.menu-page > * {
+  margin-right: 3rem;
+}
+
+.menu-page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 900px;
+  margin-top: 20px;
+}
+
+.menu-page-container > *:not(:last-child) {
+  margin-right: 3rem;
+}
+/*# sourceMappingURL=menu-page.module.css.map */

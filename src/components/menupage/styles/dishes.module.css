@@ -1,0 +1,13 @@
+.dishes {
+  background-color: #ffff;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 5px 10px 0px #e5e5e580;
+          box-shadow: 0px 5px 10px 0px #e5e5e580;
+  min-width: 332px;
+}
+
+.dishes__container {
+  margin-top: 3rem;
+}
+/*# sourceMappingURL=dishes.module.css.map */

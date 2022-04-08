@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  .item-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  .item-name:hover {
+    text-decoration: underline;
+  }
+}
+
+.container:hover {
+  cursor: pointer;
+}

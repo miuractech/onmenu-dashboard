@@ -1,0 +1,49 @@
+.container {
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 500px;
+  overflow-y: scroll;
+  padding: 2rem;
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    .fields-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      position: relative;
+      &-textarea {
+        width: 60%;
+        textarea {
+          width: 100%;
+          outline: none;
+          border-radius: 5px;
+          border: 1px solid #e4e4e4;
+          background-color: #f6f7fa;
+          resize: none;
+          padding: 0.5rem;
+        }
+        &--required {
+          color: red;
+        }
+      }
+    }
+  }
+}
+
+.input {
+  display: none;
+}
+.upload-custom-btn {
+  display: inline-block;
+  padding: 1rem 1.75rem;
+  border-radius: 3px;
+  width: 60%;
+  height: 50%;
+  text-align: center;
+  background-color: #0094ff;
+  color: #f6f7fa;
+  cursor: pointer;
+}

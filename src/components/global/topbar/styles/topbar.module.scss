@@ -1,0 +1,29 @@
+@import '../../../../styles/variables';
+
+.topbar {
+  display: flex;
+  position: sticky;
+}
+
+.container {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  justify-content: space-between;
+  background: #fbfbff;
+  z-index: 1200;
+  .item-container {
+    padding: 10px 0 0 10px;
+    .item {
+      font-family: 'Poppins';
+      font-weight: normal;
+      font-size: 1.2rem;
+      font-style: normal;
+    }
+  }
+}
+
+.item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

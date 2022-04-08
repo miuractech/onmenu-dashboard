@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  // min-width: 250px;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding-top: 20px;
+  padding-left: 30px;
+  // position: fixed;
+  // top: 0px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  z-index: 9999;
+  background: white;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+// @media only screen and (max-width: 600px) {
+//   .container {
+//     width: 50px;
+//   }
+// }
+
